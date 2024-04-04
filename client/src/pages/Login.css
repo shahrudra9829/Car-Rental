@@ -1,0 +1,77 @@
+.bgimg {
+    background:url('D:\WanderWheelsTest\client\src\images\desert-car2.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:100vh;
+    width: 100%;
+    display: flexbox;
+    filter:blur(5px);
+}
+
+.login {
+    background-color: rgb(205, 239, 230);
+    /* padding-top: 50px; */
+    min-height: 100vh;
+    display: flexbox;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.login label,
+.login h1 {
+    color: rgb(0, 101, 101) !important;
+    opacity: 0.9;
+    font-size: 40px;
+}
+
+
+.fontSize {
+    font-size: 19px !important;
+}
+
+.login-form {
+    background-color: white;
+    height: 500px;
+    width: 600px;
+    position: relative;
+    /* display: flexbox; */
+    justify-content: right;
+    transform:translate(80%,-150%); 
+    /* border: 4px solid #15c5ff; */
+    border-radius: 25px; 
+    box-shadow: 5px;
+    /* font-size: 20px !important; */
+    /* color: black !important; */
+    /* height: 65vh; */
+}
+
+.login-form input {
+    background-color: #d4d2d2;
+    border: 0.2px solid;
+
+    font-size: 18px;
+
+}
+
+.login-logo {
+    position: relative;
+    font-size: 55px !important;
+    /* font-family: "Raleway"; */
+    font-weight: 800;
+    /* line-height: 22px; */
+    text-align: left;
+    margin-left: 20px;
+}
+
+.login a {
+    color: rgb(0, 162, 255) !important;
+    /* opacity: 1; */
+    font-size: 19px;
+}
+
+.login a:hover {
+    color: rgb(72, 63, 252) !important;
+    /* opacity: 0.5; */
+    font-size: 19px;
+}
